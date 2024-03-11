@@ -1,124 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
-  <html lang="pt-BR">
-    <head>
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <title>Explore Sem Limites</title>
+    <title>Explore Sem Limites</title>
 
-      <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
-        rel="stylesheet"
-      />
-      <link rel="stylesheet" href="./style.css" />
-    </head>
-    <body>
-      <section id="landing-page">
-        <div>
-          <h1>Explore sem limites</h1>
-          <p>Porque o aprendizado é contínuo</p>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section id="landing-page">
+      <div>
+        <h1>Explore sem limites</h1>
+        <p>Porque o aprendizado é contínuo</p>
+        <a href="#cards-container">
           <img
             class="arrow-down"
             src="./assets/arrow-down.svg"
             alt="A drawing of an pink arrow pointing down."
           />
-        </div>
+        </a>
+      </div>
 
+      <img
+        class="astronaut"
+        src="./assets/astronaut.png"
+        alt="A drawing of an astronaut floating between five planets."
+      />
+    </section>
+
+    <section id="cards-container">
+      <div class="card">
         <img
-          class="astronaut"
-          src="./assets/astronaut.png"
-          alt="A drawing of an astronaut floating between five planets."
+          src="./assets/orange-planet.svg"
+          alt="A drawing of a orange planet."
         />
-      </section>
+        <h3>Não pare nunca</h3>
+        <p>
+          Se você deseja ter sucesso nos estudos, é fundamental que você adote
+          uma mentalidade de "não pare nunca". Estudar de forma consistente e
+          contínua é a chave para o progresso e a conquista de seus objetivos.
+        </p>
+      </div>
 
-      <section id="cards-container">
-        <div class="card">
-          <img
-            src="./assets/orange-planet.svg"
-            alt="A drawing of a orange planet."
-          />
-          <h3>Não pare nunca</h3>
-          <p>
-            Se você deseja ter sucesso nos estudos, é fundamental que você adote
-            uma mentalidade de "não pare nunca". Estudar de forma consistente e
-            contínua é a chave para o progresso e a conquista de seus objetivos.
-          </p>
-        </div>
+      <div class="card">
+        <img src="./assets/blue-planet.svg" alt="A drawing of a blue planet." />
+        <h3>Só volta</h3>
+        <p>
+          Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba
+          que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem
+          mudar, ou podemos nos sentir desmotivados ou sobrecarregados.
+        </p>
+      </div>
 
-        <div class="card">
-          <img
-            src="./assets/blue-planet.svg"
-            alt="A drawing of a blue planet."
-          />
-          <h3>Só volta</h3>
-          <p>
-            Se você parou ou perdeu o ritmo em alguma atividade ou projeto,
-            saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias
-            podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.
-          </p>
-        </div>
+      <div class="card">
+        <img src="./assets/pink-planet.svg" alt="A drawing of a pink planet." />
+        <h3>Siga seu ritmo</h3>
+        <p>
+          Avançar pouco a pouco mantém progresso constante em objetivos,
+          evitando parar ou desistir. Mesmo pequenos passos nos aproximam do
+          destino e motivam a continuidade. Não subestime o poder de cada ação
+          rumo ao objetivo final.
+        </p>
+      </div>
+    </section>
 
-        <div class="card">
-          <img
-            src="./assets/pink-planet.svg"
-            alt="A drawing of a pink planet."
-          />
-          <h3>Siga seu ritmo</h3>
-          <p>
-            Avançar pouco a pouco mantém progresso constante em objetivos,
-            evitando parar ou desistir. Mesmo pequenos passos nos aproximam do
-            destino e motivam a continuidade. Não subestime o poder de cada ação
-            rumo ao objetivo final.
-          </p>
-        </div>
-      </section>
+    <section id="contact">
+      <div>
+        <h2>Entre em contato</h2>
+        <form>
+          <div class="input-wrapper">
+            <label for="info-name">Seu nome</label>
+            <input
+              type="text"
+              name="info-name"
+              id="info-name"
+              placeholder="Seu nome"
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="info-email">Email</label>
+            <input
+              type="text"
+              name="info-email"
+              id="info-email"
+              placeholder="Email"
+            />
+          </div>
 
-      <section id="contact">
-        <div>
-          <h2>Entre em contato</h2>
-          <form>
-            <div class="input-wrapper">
-              <label for="info-name">Seu nome</label>
-              <input
-                type="text"
-                name="info-name"
-                id="info-name"
-                placeholder="Seu nome"
-              />
-            </div>
-            <div class="input-wrapper">
-              <label for="info-email">Email</label>
-              <input
-                type="text"
-                name="info-email"
-                id="info-email"
-                placeholder="Email"
-              />
-            </div>
+          <div class="input-wrapper">
+            <label for="info-message">Digite sua mensagem aqui</label>
+            <textarea
+              name="info-message"
+              id="info-message"
+              placeholder="Digite sua mensagem aqui..."
+            ></textarea>
+          </div>
 
-            <div class="input-wrapper">
-              <label for="info-message">Digite sua mensagem aqui</label>
-              <textarea
-                name="info-message"
-                id="info-message"
-                placeholder="Digite sua mensagem aqui..."
-              ></textarea>
-            </div>
+          <button type="submit">Enviar mensagem</button>
+        </form>
+      </div>
 
-            <button type="submit">Enviar mensagem</button>
-          </form>
-        </div>
+      <img src="./assets/stars.svg" alt="Decorative drawing of stars." />
+    </section>
 
-        <img src="./assets/stars.svg" alt="Decorative drawing of stars." />
-      </section>
-
-      <footer>
-        <p>© 2023 - Rocketseat Explorer</p>
-      </footer>
-    </body>
-  </html>
+    <footer>
+      <p>© 2023 - Rocketseat Explorer</p>
+    </footer>
+  </body>
 </html>
